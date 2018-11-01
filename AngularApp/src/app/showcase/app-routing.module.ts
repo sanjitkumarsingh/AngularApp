@@ -18,11 +18,11 @@ import { HomeComponent } from './components/home/home.component';
             {path: 'october', loadChildren: './components/october/october.module#OctoberModule'},
             {path: 'november', loadChildren: './components/november/november.module#NovemberModule'},
             {path: 'december', loadChildren: './components/december/december.module#DecemberModule'},
-            {path: 'collection', loadChildren: './components/button/buttondemo.module#ButtonDemoModule'},
+            {path: 'collection', loadChildren: './components/contribution/contribution.module#ContributionModule'},
             {path: 'expenditure', loadChildren: './components/expenditure/expenditure.module#ExpenditureModule'},
             {path: 'support', loadChildren: './components/support/support.module#SupportModule'},
             {path: 'employee', loadChildren: './components/employee/employee.module#EmployeeModule'},
-            {path: 'avdistribution', loadChildren: './components/toolbar/toolbardemo.module#ToolbarDemoModule'}
+            {path: 'avdistribution', loadChildren: './components/Voucher/voucher.module#VoucherModule'}
         ])
     ],
     exports: [RouterModule]
